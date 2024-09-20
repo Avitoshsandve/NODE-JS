@@ -30,7 +30,7 @@ fs.appendFileSync("./laval.txt",new Date().getDate().toString());
 fs.cpSync("./test.txt","./copyy.txt");
 
 //delete
-//fs.unlink("./laval.txt");
+fs.unlink("./laval.txt");
 
 //stats
 console.log(fs.statSync("./test.txt"));
