@@ -1,0 +1,8 @@
+function Hotel(name){
+    console.log(`The ${name}`);
+}
+function HotelParadise(HotelFn){
+    const name="Paradise";
+    HotelFn(name);
+}
+HotelParadise(Hotel);
