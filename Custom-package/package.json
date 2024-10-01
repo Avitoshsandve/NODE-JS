@@ -1,0 +1,24 @@
+{
+  "name": "espayol-name",
+  "version": "1.0.0",
+  "description": "barcelona",
+  "main": "js1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node js1.js",
+    "Avito": "node httpmodules.js",
+    "fire": "node httpserver.js",
+    "Gunj": "node npm.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "keywords": [
+    "hola"
+  ]
+}
